@@ -1,0 +1,26 @@
+//btnconfig.scss file
+
+
+%btn {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+
+  &:hover {
+    transform: scale(.70);
+  }
+}
+
+
+
+.btn-primary {
+  @extend %btn;
+  @include set-bg(lighten($primary-color, 40%));
+} 
+
+.btn-secondary {
+  @extend %btn;
+  @include set-bg(darken($secondary-color, 50%));
+}
+

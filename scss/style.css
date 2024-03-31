@@ -12,17 +12,17 @@
   margin: 3px;
 }
 .btn-secondary:hover, .btn-primary:hover {
-  transform: scale(0.7);
+  transform: scale(0.8);
 }
 
 .btn-primary {
-  background-color: #005ae0;
+  background-color: #001c47;
   color: white;
 }
 
 .btn-secondary {
-  background-color: #173642;
-  color: white;
+  background-color: #a2d0fc;
+  color: black;
 }
 
 * {
@@ -38,7 +38,7 @@ body {
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 75%;
 }
 
 a {
@@ -46,42 +46,10 @@ a {
 }
 
 .hero {
-  background-color: #000814;
-  color: white;
-}
-.hero nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.hero ul {
-  display: flex;
-  list-style: none;
-  flex-wrap: nowrap;
-}
-.hero li {
-  padding: 10px;
-  white-space: nowrap;
+  background-color: black;
 }
 .hero a {
-  color: white;
-}
-.hero a:hover {
-  color: #84bed4;
-}
-.hero-content {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 35px;
-}
-.hero img {
-  width: 65%;
-}
-.hero h1 {
-  font-size: 25px;
-  line-height: 1.2;
+  text-decoration: none;
 }
 
 .m-1 {
@@ -162,6 +130,4 @@ a {
 
 .py-5 {
   padding: 5rem 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
